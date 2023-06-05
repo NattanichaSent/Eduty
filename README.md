@@ -4,8 +4,13 @@
 
 - [] `yarn create vite your project name --react-ts` to create yarn project
 - [] `yarn` to install all yarn package this project dependencies
-- [] `yarn` to run the project in development mode
+- [] `yarn dev` to run the project in development mode
 - [] Open `http://localhost:5173/` to view it in the browser
+
+# If you wanna dev in VScode
+- [] open cmd from your folder `code .` to open VScde
+- [] open New terminal then type `cmd` to change to cmd
+- [] `yarn dev` to run the project
 
 # How to contribute to this project for Collaborator 👥
 
