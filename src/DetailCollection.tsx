@@ -21,11 +21,11 @@ export default function DetailCollection() {
                     <div className="tab line3"></div>
                     <p className="tab">Lot Name : lot_14</p>
                   </div>
-                  <p className=" row">
+                  <p className="row">
                     Status :<div className="yellow">Pending</div>
                   </p>
                 </div>
-                <div className="row ">
+                <div className="row">
                   <p className="tab1 ">Total Duty : 2,000</p>
                   <div className="tab line3"></div>
                   <p className="tab">Total Dup Duty Amount : 0</p>
@@ -34,7 +34,7 @@ export default function DetailCollection() {
                 </div>
               </div>
 
-              <div className="top">
+              <div className="Table top">
                 <table>
                   <tr>
                     <th>No.</th>
@@ -179,44 +179,50 @@ export default function DetailCollection() {
                 </table>
               </div>
 
-              <div className="pagination topcen">
-                <a href="#">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="2 2 16 16"
-                  >
-                    <g transform="translate(24 0) scale(-1 1)">
+              <div className="page&butt row top2 ">
+                <div className="pagination end">
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="2 2 16 16"
+                    >
+                      <g transform="translate(24 0) scale(-1 1)">
+                        <path
+                          fill="none"
+                          stroke="#489788"
+                          stroke-width="2"
+                          d="m9 6l6 6l-6 6"
+                        />
+                      </g>
+                    </svg>
+                  </a>
+                  <a href="#" className="active">
+                    1
+                  </a>
+                  <a href="#">2</a>
+
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="2 2 16 16"
+                    >
                       <path
                         fill="none"
                         stroke="#489788"
                         stroke-width="2"
                         d="m9 6l6 6l-6 6"
                       />
-                    </g>
-                  </svg>
-                </a>
-                <a href="#">1</a>
-                <a href="#" className="active">
-                  2
-                </a>
-
-                <a href="#">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="2 2 16 16"
-                  >
-                    <path
-                      fill="none"
-                      stroke="#489788"
-                      stroke-width="2"
-                      d="m9 6l6 6l-6 6"
-                    />
-                  </svg>
-                </a>
+                    </svg>
+                  </a>
+                </div>
+                <div className="ButtonAction ">
+                  <button className="apbutt tab2">Approve</button>
+                  <button className="dnbutt">Denied</button>
+                </div>
               </div>
             </div>
           </div>

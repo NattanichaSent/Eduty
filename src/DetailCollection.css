@@ -36,7 +36,7 @@
   color: #393939;
 }
 
-.button {
+.Apbut {
   background-color: #ffffff;
   border: none;
   color: #535353;
@@ -63,11 +63,12 @@
   cursor: pointer;
 }
 
-.button1 {
-  background-color: #ffffff;
+.apbutt {
+  background-color: #00ca07;
   border: none;
-  color: #535353;
-  padding: 15px 32px;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -76,11 +77,25 @@
   transition-duration: 0.4s;
 }
 
-.button2 {
-  background-color: #ffffff;
+.apbutt:hover {
+  background-color: #009105;
   border: none;
-  color: #535353;
-  padding: 15px 32px;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.dnbutt {
+  background-color: #ca0700;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -89,11 +104,12 @@
   transition-duration: 0.4s;
 }
 
-.button2:hover {
-  background-color: #f5f5f5;
+.dnbutt:hover {
+  background-color: #8f0500;
   border: none;
-  color: #535353;
-  padding: 15px 32px 12px 32px;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -107,7 +123,6 @@
 
 .row {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
@@ -121,6 +136,10 @@
 
 .tab1 {
   margin-right: 95px;
+}
+
+.tab2 {
+  margin-right: 10px;
 }
 
 .space2 {
@@ -225,13 +244,22 @@ th {
   border-radius: 5px;
 }
 
-.topcen {
+.top2 {
   margin-top: 20px;
   margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
 }
 
-.btw {
-  justify-content: space-between;
+.end {
+  margin-inline: auto;
+}
+
+.block1 {
+  /* width: 50%; */
+
+  justify-content: center;
+  /* margin-inline-start: 50%; */
+}
+
+.cen {
+  justify-content: center;
 }
