@@ -1,10 +1,12 @@
 import React from "react";
 import "./DetailCollection.css";
+import Navbar from "./components/Navbar";
 
 export default function DetailCollection() {
   return (
     <div>
       <meta name="viewport" content="width=1920px, initial-scale=1.0"></meta>
+      <Navbar></Navbar>
       <div className="space2">
         <div className="title spaceTitle">
           <div className="line"></div>
@@ -21,7 +23,7 @@ export default function DetailCollection() {
                     <div className="tab line3"></div>
                     <p className="tab">Lot Name : lot_14</p>
                   </div>
-                  <p className="row">
+                  <p className="row ">
                     Status :<div className="yellow">Pending</div>
                   </p>
                 </div>

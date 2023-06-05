@@ -5,7 +5,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Rubik", sans-serif;
-
 }
 
 .line {
@@ -19,11 +18,10 @@
   margin-top: 5px;
   height: 2px;
   width: auto;
-  background-color: #E6E5E5;
+  background-color: #e6e5e5;
 }
 
 .line3 {
-
   height: 30px;
   width: 2px;
   background-color: #cecece;
@@ -104,7 +102,8 @@
 }
 
 .shadow {
-  box-shadow: 0 0 8px 0 rgba(66, 66, 66, 0.2), 0 6px 20px 0 rgba(85, 85, 85, 0.19);
+  box-shadow: 0 0 8px 0 rgba(66, 66, 66, 0.2),
+    0 6px 20px 0 rgba(85, 85, 85, 0.19);
 }
 
 .row {
@@ -122,12 +121,11 @@
 }
 
 .space2 {
-  margin: 20px;
+  margin: 20px 20px 20px 220px;
 }
 
 .space3 {
   padding: 15px 20px 15px 20px;
-
 }
 
 .space4 {
@@ -152,7 +150,7 @@
 }
 
 .green1 {
-  background-color: #00CA07;
+  background-color: #00ca07;
   color: #ffffff;
   font-size: 13px;
   padding: 10px 2px;
@@ -199,7 +197,7 @@
 }
 
 .gray1 {
-  background-color: #B1B1B1;
+  background-color: #b1b1b1;
   color: #ffffff;
   font-size: 13px;
   padding: 10px 2px;
@@ -239,45 +237,9 @@
   cursor: pointer;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 100px 150px 150px 200px 200px 250px 150px 250px 150px 100px;
-  background-color: #FAFAFA;
-  font-size: 14px;
-  border-bottom: 1px solid #B1B1B1;
-  justify-content: space-between;
-  color: #393939;
-}
-
-.grid-item {
-  background-color: #FAFAFA;
-  text-align: center;
-  padding: 15px;
-
-
-}
-
-.lastgrid-container {
-  display: grid;
-  grid-template-columns: 100px 150px 150px 200px 200px 250px 150px 250px 150px 100px;
-  background-color: #7f7f7f28;
-  font-size: 14px;
-
-  justify-content: space-between;
-  color: #393939;
-}
-
-.lastgrid-item {
-
-  text-align: center;
-  padding: 15px;
-
-
-}
-
 .top {
   margin-top: 5px;
-  color: #8C8C8C;
+  color: #8c8c8c;
 }
 
 .apbutton {
@@ -288,4 +250,36 @@
 .total {
   font-weight: 600;
   color: #535353;
+}
+
+table,
+td,
+th {
+  border-bottom: 1px solid #b1b1b1;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+  color: #393939;
+  font-size: 14px;
+}
+
+th {
+  height: 50px;
+  background-color: #fafafa;
+  font-weight: 500;
+  font-size: 14px;
+  color: #8c8c8c;
+}
+
+.ltb {
+  background-color: #7f7f7f23;
+  font-weight: 600;
+  color: #535353;
+  border-bottom: 1px solid #7f7f7f23;
 }
