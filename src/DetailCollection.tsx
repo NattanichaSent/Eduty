@@ -10,7 +10,7 @@ export default function DetailCollection() {
       <div className="space2">
         <div className="title spaceTitle">
           <div className="line"></div>
-          <div>Data Result Correction</div>
+          <div>Detail Correction</div>
         </div>
 
         <div className="Transection">
@@ -65,7 +65,7 @@ export default function DetailCollection() {
                       >
                         <path
                           fill="none"
-                          stroke="#393939"
+                          stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
                           stroke-width="1.5"
@@ -75,14 +75,14 @@ export default function DetailCollection() {
                     </td>
                   </tr>
                   <tr>
-                    <td>2</td>
-                    <td>2562/10</td>
-                    <td>1102918928918</td>
-                    <td>Sompong Karndee</td>
-                    <td>100</td>
-                    <td>0 </td>
-                    <td>100</td>
-                    <td>
+                    <td className="active">2</td>
+                    <td className="active">2562/10</td>
+                    <td className="active">1102918928918</td>
+                    <td className="active">Sompong Karndee</td>
+                    <td className="active">100</td>
+                    <td className="active">0 </td>
+                    <td className="active">100</td>
+                    <td className="active">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="21"
@@ -91,7 +91,7 @@ export default function DetailCollection() {
                       >
                         <path
                           fill="none"
-                          stroke="#393939"
+                          stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
                           stroke-width="1.5"
@@ -117,7 +117,7 @@ export default function DetailCollection() {
                       >
                         <path
                           fill="none"
-                          stroke="#393939"
+                          stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
                           stroke-width="1.5"
@@ -143,7 +143,7 @@ export default function DetailCollection() {
                       >
                         <path
                           fill="none"
-                          stroke="#393939"
+                          stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
                           stroke-width="1.5"
@@ -169,7 +169,7 @@ export default function DetailCollection() {
                       >
                         <path
                           fill="none"
-                          stroke="#393939"
+                          stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
                           stroke-width="1.5"

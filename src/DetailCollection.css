@@ -204,6 +204,14 @@ th {
   padding: 15px;
 }
 
+td.active {
+  border-bottom: 1px solid #b1b1b1;
+  text-align: center;
+  background-color: #ca0700cb;
+  padding: 15px;
+  color: white;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
