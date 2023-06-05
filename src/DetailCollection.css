@@ -5,7 +5,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Rubik", sans-serif;
-
 }
 
 .line {
@@ -19,11 +18,10 @@
   margin-top: 5px;
   height: 2px;
   width: auto;
-  background-color: #E6E5E5;
+  background-color: #cecece;
 }
 
 .line3 {
-
   height: 30px;
   width: 2px;
   background-color: #cecece;
@@ -104,7 +102,7 @@
 }
 
 .shadow {
-  box-shadow: 0 0 8px 0 rgba(66, 66, 66, 0.2), 0 6px 20px 0 rgba(85, 85, 85, 0.19);
+  box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .row {
@@ -121,53 +119,33 @@
   margin-right: 50px;
 }
 
+.tab1 {
+  margin-right: 95px;
+}
+
 .space2 {
   margin: 20px;
 }
 
 .space3 {
   padding: 15px 20px 15px 20px;
-
 }
 
 .space4 {
-  padding: 15px 20px 15px 30px;
+  padding: 15px 20px 15px 20px;
   color: #535353;
   font-weight: 600;
   font-size: 14px;
 }
 
-.space5 {
-  margin-left: 5px;
-  margin-right: 10px;
-}
-
-.green {
-  margin-left: 10px;
-  background-color: #00ca07;
-  color: #ffffff;
-  font-size: 13px;
-  padding: 3px 8px 3px 8px;
-  border-radius: 5px;
-}
-
 .green1 {
-  background-color: #00CA07;
+  background-color: #00ca07;
   color: #ffffff;
   font-size: 13px;
   padding: 10px 2px;
   border-radius: 5px;
   margin-left: 20px;
   margin-right: 20px;
-}
-
-.yellow {
-  margin-left: 10px;
-  background-color: #ecbf21;
-  color: #ffffff;
-  font-size: 13px;
-  padding: 3px 8px 3px 8px;
-  border-radius: 5px;
 }
 
 .yellow1 {
@@ -180,112 +158,80 @@
   margin-right: 20px;
 }
 
-.red {
-  margin-left: 10px;
-  background-color: #ca0700;
+.yellow {
+  background-color: #ecbf21;
   color: #ffffff;
   font-size: 13px;
-  padding: 3px 8px 3px 8px;
+  font-weight: 500;
+  padding: 5px 10px;
   border-radius: 5px;
-}
-
-.gray {
-  margin-left: 10px;
-  background-color: #b1b1b1;
-  color: #ffffff;
-  font-size: 13px;
-  padding: 3px 8px 3px 8px;
-  border-radius: 5px;
-}
-
-.gray1 {
-  background-color: #B1B1B1;
-  color: #ffffff;
-  font-size: 13px;
-  padding: 10px 2px;
-  border-radius: 5px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.black {
-  color: #000000;
+  margin-left: 5px;
 }
 
 .spaceTitle {
   margin-bottom: 20px;
 }
 
-.spaceTitle2 {
+.top {
+  margin-top: 5px;
+}
+
+table,
+td,
+th {
+  border-bottom: 1px solid #b1b1b1;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+  color: #393939;
+  font-size: 14px;
+}
+
+th {
+  height: 50px;
+  background-color: #fafafa;
+  font-weight: 500;
+  font-size: 14px;
+  color: #8c8c8c;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  border: 1px #489788;
+
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #489788;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.topcen {
+  margin-top: 20px;
   margin-bottom: 10px;
-  color: #000000;
+  display: flex;
+  justify-content: center;
 }
 
 .btw {
   justify-content: space-between;
-}
-
-.SearchButton {
-  background-color: #489788;
-  border: none;
-  border-radius: 5px;
-  color: #ffffff;
-  padding: 5px;
-  margin-right: 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  cursor: pointer;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 100px 150px 150px 200px 200px 250px 150px 250px 150px 100px;
-  background-color: #FAFAFA;
-  font-size: 14px;
-  border-bottom: 1px solid #B1B1B1;
-  justify-content: space-between;
-  color: #393939;
-}
-
-.grid-item {
-  background-color: #FAFAFA;
-  text-align: center;
-  padding: 15px;
-
-
-}
-
-.lastgrid-container {
-  display: grid;
-  grid-template-columns: 100px 150px 150px 200px 200px 250px 150px 250px 150px 100px;
-  background-color: #7f7f7f28;
-  font-size: 14px;
-
-  justify-content: space-between;
-  color: #393939;
-}
-
-.lastgrid-item {
-
-  text-align: center;
-  padding: 15px;
-
-
-}
-
-.top {
-  margin-top: 5px;
-  color: #8C8C8C;
-}
-
-.apbutton {
-  padding: 5px;
-  background: #000;
-}
-
-.total {
-  font-weight: 600;
-  color: #535353;
 }
