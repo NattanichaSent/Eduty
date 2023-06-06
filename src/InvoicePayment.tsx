@@ -102,14 +102,15 @@ export const InvoicePayment = () => {
                   <tr>
                     <th>No.</th>
                     <th>Lot Name</th>
+                    <th>Total Doc</th>
                     <th>Batch Date</th>
                     <th>Batch Time</th>
-                    <th>Total Doc</th>
-                    <th>Total Duty</th>
-                    <th>TotalDubDutyAmount</th>
-                    <th>Total Payment</th>
                     <th>Ref 1</th>
                     <th>Ref 2</th>
+                    <th>Total Duty</th>
+                    <th>TotalDub DutyAmount</th>
+                    <th>Total Payment</th>
+                    
                     <th>Payment Status</th>
                     <th>QR Payment</th>
                     <th>Pay in slip</th>
@@ -118,14 +119,15 @@ export const InvoicePayment = () => {
                   <tr>
                     <td>1</td>
                     <td>lot_14</td>
+                    <td>20</td>
                     <td>31/10/2022</td>
                     <td>12:00</td>
-                    <td>20</td>
+                    <td>1102918928918</td>
+                    <td>958319</td>
                     <td>2,000</td>
                     <td>0</td>
                     <td>2,000</td>
-                    <td>1102918928918</td>
-                    <td>958319</td>
+                    
                     <td>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -220,14 +222,15 @@ export const InvoicePayment = () => {
                   <tr>
                     <td>2</td>
                     <td>lot_14</td>
+                    <td>20</td>
                     <td>31/10/2022</td>
                     <td>12:00</td>
-                    <td>20</td>
+                    <td>1102918928918</td>
+                    <td>958319</td>
                     <td>2,000</td>
                     <td>0</td>
                     <td>2,000</td>
-                    <td>1102918928918</td>
-                    <td>958319</td>
+                    
                     <td>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -322,14 +325,15 @@ export const InvoicePayment = () => {
                   <tr>
                     <td>3</td>
                     <td>lot_14</td>
+                    <td>20</td>
                     <td>31/10/2022</td>
                     <td>12:00</td>
-                    <td>20</td>
+                    <td>1102918928918</td>
+                    <td>958319</td>
                     <td>2,000</td>
                     <td>0</td>
                     <td>2,000</td>
-                    <td>1102918928918</td>
-                    <td>958319</td>
+                    
                     <td>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -428,11 +432,13 @@ export const InvoicePayment = () => {
                     <td className="ltb"></td>
                     <td className="ltb"></td>
                     <td className="ltb"></td>
+                    
+                    <td className="ltb"></td>
+                    <td className="ltb"></td>
                     <td className="ltb">6,000</td>
                     <td className="ltb">0</td>
                     <td className="ltb">6,000</td>
-                    <td className="ltb"></td>
-                    <td className="ltb"></td>
+                    
                     <td className="ltb"></td>
                     <td className="ltb"></td>
                     <td className="ltb"></td>

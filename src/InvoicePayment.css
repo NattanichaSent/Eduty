@@ -9,9 +9,10 @@
 
 .line {
   margin-right: 10px;
-  min-height: 70px;
-  min-width: 5px;
+  min-height: 50px;
+  min-width: 3px;
   background-color: #489788;
+  
 }
 
 .line2 {
@@ -44,7 +45,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: lighter;
   cursor: pointer;
 }
@@ -57,7 +58,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 15px;
+  font-size: 14px;
 
   cursor: pointer;
 }
@@ -70,7 +71,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 15px;
+  font-size: 14px;
   cursor: pointer;
 }
 
@@ -82,7 +83,7 @@
   text-align: center;
   border-bottom: 3px solid #489788;
   display: inline-block;
-  font-size: 15px;
+  font-size: 14px;
   cursor: pointer;
 }
 
@@ -94,13 +95,12 @@
   text-align: center;
 
   display: inline-block;
-  font-size: 15px;
+  font-size: 14px;
   cursor: pointer;
 }
 
 .shadow {
-  box-shadow: 0 0 8px 0 rgba(66, 66, 66, 0.2),
-    0 6px 20px 0 rgba(85, 85, 85, 0.19);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .row {
@@ -220,7 +220,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 15px;
+  font-size: 14px;
   cursor: pointer;
 }
 
@@ -246,6 +246,7 @@ th {
   text-align: center;
   background-color: #fafafa;
   padding: 15px;
+  font-size: 13px;
 }
 
 td.active {
@@ -253,21 +254,26 @@ td.active {
   text-align: center;
   background-color: #f00808;
   padding: 15px;
+  font-size: 13px;
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
+  padding: 15px;
   color: #393939;
-  font-size: 14px;
+  font-size: 13px;
+  text-align: center;
 }
 
 th {
   height: 50px;
   background-color: #fafafa;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 13px;
   color: #8c8c8c;
+  padding: 10px;
+  text-align: center;
 }
 
 .ltb {
@@ -275,6 +281,9 @@ th {
   font-weight: 600;
   color: #535353;
   border-bottom: 1px solid #7f7f7f23;
+  padding: 15px;
+  font-size: 13px;
+  text-align: center;
 }
 
 .filter {

@@ -10,9 +10,9 @@ import { InvoicePayment } from "./InvoicePayment.tsx";
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     {/* <App /> */}
-    {/* <DataResult /> */}
+    <DataResult />
     {/* <DetailCollection /> */}
     {/* <RDTransaction /> */}
-    <InvoicePayment />
+    {/* <InvoicePayment /> */}
   </React.StrictMode>
 );

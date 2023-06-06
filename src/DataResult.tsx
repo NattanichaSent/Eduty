@@ -5,7 +5,7 @@ import "./DataResult.css";
 export default function DataResult() {
   return (
     <div>
-      <meta name="viewport" content="width=1920px, initial-scale=1.0"></meta>
+      
       <Navbar></Navbar>
       <div className="space2">
         <div className="title spaceTitle">
@@ -125,7 +125,7 @@ export default function DataResult() {
                     <th>Approval Status</th>
                     <th>Approved By</th>
                     <th>Total Duty</th>
-                    <th>TotalDubDutyAmount</th>
+                    <th>TotalDub DutyAmount</th>
                     <th>Total Payment</th>
                     <th>Action</th>
                   </tr>
